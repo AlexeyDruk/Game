@@ -10,14 +10,7 @@
 shuffle(buttonsTwo)
 console.log(buttonsTwo);
 };
- function arr(){
-  let buttons = document.getElementsByTagName('button');
-  function shuffle(buttons) {
-  buttons.sort(() => Math.random() - 0.5);}
-    console.log(buttons);
-  shuffle(buttons)
-  };
-  arr(); 
+ 
   function getID(event){
   let a = event.target.id;
   a = document.getElementById(a);

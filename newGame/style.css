@@ -1,3 +1,15 @@
+body{
+	position: relative;
+}
+.none{
+	z-index: 0;
+}
+p{  
+	margin: 10 auto;
+	font-size: 39px;
+	background-color: aquamarine;
+
+}
 .deep{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
